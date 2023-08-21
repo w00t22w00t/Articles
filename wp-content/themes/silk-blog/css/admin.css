@@ -1,0 +1,75 @@
+#customize-theme-controls #accordion-panel-upgradepro1_options .accordion-section-title {
+    background: #595ffb;
+    color: #ffff;
+
+}
+#customize-theme-controls #accordion-panel-upgradepro1_options .accordion-section-title:after{
+    color:#cb0f28;
+}
+
+.upgrade_button{
+    color: #ffffff;
+    font-size: 16px;
+    border-radius: 5px 5px 5px 5px;
+    background-color: #2786FF;
+    padding: 14px 30px 14px 30px;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+.draw-border {
+    box-shadow: inset 0 0 0 2px #58afd1;
+    color: #58afd1;
+    transition: color 0.25s 0.0833333333s;
+    position: relative;
+  }
+  .draw-border::before, .draw-border::after {
+    border: 0 solid transparent;
+    box-sizing: border-box;
+    content: "";
+    pointer-events: none;
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 0;
+    right: 0;
+  }
+  .draw-border::before {
+    border-bottom-width: 4px;
+    border-left-width: 4px;
+  }
+  .draw-border::after {
+    border-top-width: 4px;
+    border-right-width: 4px;
+  }
+  .draw-border:hover{
+    color: #f61616;
+  }
+  .draw-border:hover::before, .draw-border:hover::after {
+    border-color: #f61616;
+    transition: border-color 0s, width 0.25s, height 0.25s;
+    width: 100%;
+    height: 100%;
+  }
+  .draw-border:hover::before {
+    transition-delay: 0s, 0s, 0.25s;
+  }
+  .draw-border:hover::after {
+    transition-delay: 0s, 0.25s, 0s;
+  }
+  
+  .btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    line-height: 1.5;
+    padding: 1em 2em;
+    letter-spacing: 0.05rem;
+    text-decoration: none;
+  }
+  .btn:focus {
+    outline: 2px dotted #55d7dc;
+  }
+  #customize-control-silk_blog_view_link2{
+    margin-top: 20px;
+  }
